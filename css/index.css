@@ -1,0 +1,49 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+	overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+/* image slider css */
+#sliderCaption{
+	padding-bottom: 50px;
+	font-family: Georgia, serif;
+}
+#title{
+	font-size: 50px;
+	text-shadow: 2px 2px 4px #00FFFF;
+}
+#title1{
+	font-size: 30px;
+	text-shadow: 2px 2px 4px #00FFFF;
+}
+.features{
+	font-family: Impact, Charcoal, sans-serif;
+	color: #FF4500; 
+}
+.upCounter{
+	background: linear-gradient(rgba(255,69,0,0.7), rgba(255,69,0,0.7)), url("../images/bg/android.jpg") no-repeat center;
+}
+/* media screen set-up */
+@media screen and (max-width: 570px) {
+	#sliderCaption{
+		padding-bottom: 50px;
+		font-family: Georgia, serif;
+	}
+	#title{
+		font-size: 30px;
+		text-shadow: 2px 2px 4px #00FFFF;
+	}
+	#title1{
+		font-size: 20px;
+		text-shadow: 2px 2px 4px #00FFFF;
+	}
+  }
+
+  .timestamp{
+  	font-family: Georgia, serif;
+  	font-size: 30px;
+  }
+  .title-background{
+	  background-color: rgba(0, 0, 0, 0.6);
+  }

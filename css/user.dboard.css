@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+    overflow-x: hidden;
+}
+
+.sidenav {
+    font-family: "Allerta Stencil", Sans-serif;
+    height: 70%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #A52A2A;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 35px;
+    margin-top: 55px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #00FFFF;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.closebtn {
+    color: #5F9EA0;
+}
+
+#main-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,15 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+    overflow-x: hidden;
+}
+/*registration page style sheet*/
+#registration-title{
+    font-family: 'Lobster';
+    color: #FF0000;
+    text-shadow: 4px 4px 8px #DC143C;
+}
+/*login page style sheet*/
+.login{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

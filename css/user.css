@@ -1,0 +1,28 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    overflow-x: hidden;
+}
+#main-content{
+    min-height: 450px;
+}
+#profile{
+    background-color: #F5F5F5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#password-div{
+    display: none;
+}
+#post_question{
+    background-color: #F5F5F5;
+    padding: 5px 5px 5px 5px;
+}
+#recent_post{
+    background-color: #F5F5F5;
+    padding: 5px 5px 5px 5px;
+}
+#solution{
+    min-height: 500px;
+}

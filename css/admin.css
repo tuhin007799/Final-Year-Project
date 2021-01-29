@@ -1,0 +1,23 @@
+#student{
+	background-color: #FF8C00;
+	color: white;
+}
+#course-bg{
+	background-color: #FFA07A;
+	color: white;
+}
+#lecture{
+	background-color: #87CEFA;
+	color: white;
+}
+#topic{
+	background-color: #20B2AA;
+	color: white;
+}
+#admin_password{
+	margin-top: 70px;
+	margin-bottom: 150px;
+}
+.user-view{
+	min-height: 450px;
+}
